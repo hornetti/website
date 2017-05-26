@@ -1,0 +1,49 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "me, myself and i.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hornetti/website.git"
+  },
+  "keywords": [
+    "filippo",
+    "gorini",
+    "faenza",
+    "salesiani",
+    "small",
+    "city",
+    "big",
+    "stories",
+    "smallcitybigstories",
+    "salesiani20",
+    "salesianifaenza",
+    "inchiostro"
+  ],
+  "author": "filippo gorini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hornetti/website/issues"
+  },
+  "homepage": "https://github.com/hornetti/website#readme",
+  "dependencies": {
+    "twig": "^1.10.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-twig-render": "^1.8.1",
+    "node-sass": "^4.5.3",
+    "uglify-js": "^3.0.11"
+  }
+}
