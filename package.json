@@ -30,9 +30,6 @@
     "url": "https://github.com/hornetti/website/issues"
   },
   "homepage": "https://github.com/hornetti/website#readme",
-  "dependencies": {
-    "twig": "^1.10.5"
-  },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
     "grunt": "^1.0.1",
@@ -42,8 +39,9 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-twig-render": "^1.8.1",
+    "grunt-twig": "^1.0.0",
     "node-sass": "^4.5.3",
+    "twig": "^1.10.5",
     "uglify-js": "^3.0.11"
   }
 }
