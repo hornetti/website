@@ -1,0 +1,16 @@
+{
+    "myName": "hello world",
+    "myDescription": "Filippo Gorini here",
+    "myBirth": "1992.05.17",
+    "myBio": "student webdev nerd",
+    "referenceGitHub" : "github",
+    "linkGitHub" : "https://github.com/Hornetti", 
+    "referenceLinkedin" : "linkedin",
+    "linkLinkedin" : "https://it.linkedin.com/pub/filippo-gorini/9a/126/b4a", 
+    "referenceGmail" : "gmail",
+    "linkGmail" : "filippo.gorini@gmail.com", 
+    "referenceCodepen" : "codepen",
+    "linkCodepen" : "http://codepen.io/Hornetti", 
+    "referenceCV" : "curriculum vitae",
+    "linkCV" : ""
+}

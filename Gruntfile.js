@@ -11,13 +11,17 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
-		twig: {
+		twigRender: {
 			twig_task : {
-				files: {
-					'build/index.html': [
-						'source/twig/**/*.twig'
-					]
-				}
+				files: [
+				{
+				    data: "source/json/bio.json",
+				    expand: true,
+				    cwd: "source/twig/",
+				    src: ["*.twig", "_*.twig"],
+				    dest: "build/",
+				    ext: ".html"
+				}]
 			}			
 		},
 		autoprefixer: {
@@ -34,28 +38,15 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		/*uglify: {
-			my_target: {
-				files: {
-					'build/output.min.js': [
-						'bower_components/jquery/dist/jquery.min.js',
-						'bower_components/angular/angular.min.js'
-					],
-					'build/js/myoutput.min.js': [
-						'build/js/app.js'
-					]
-				}
-			}
-		},*/
 		watch: {
 			sass: {
 				files: [ 'source/sass/*.scss' ],
 				tasks: ['sass', 'autoprefixer', 'cssmin']
-			}/*,
-			jade: {
-				files: [ 'source/jade/*.jade' ],
-				tasks: ['jade']
-			},*/
+			},
+			twig: {
+				files: [ 'source/twig/*.twig' ],
+				tasks: ['twigRender']
+			},
 		},
 		browserSync: {
 			bsFiles: {
@@ -74,11 +65,10 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-autoprefixer');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-browser-sync');
-	grunt.loadNpmTasks('grunt-twig');
+	grunt.loadNpmTasks('grunt-twig-render');
 
-	grunt.registerTask('start', ['browserSync', 'watch']);
-	grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin', 'twig' /*, 'uglify'*/]);
+	grunt.registerTask('start', ['default', 'browserSync', 'watch']);
+	grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin', 'twigRender']);
 };
