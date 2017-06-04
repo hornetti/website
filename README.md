@@ -15,18 +15,18 @@ First project with package manager [npm] and task runner [grunt] in Ideato.
 
 * grunt-plugins
 	
-	autoprefixer
+	* autoprefixer
 	
-	browser-sync
+	* browser-sync
 	
-	watch
+	* watch
 	
-	twig-render
+	* twig-render
 	
-	sass
+	* sass
 	
-	cssmin
+	* cssmin
 	
-	uglify
+	* uglify
 
 [hornetti.github.io]: https://hornetti.github.io/website/build/
