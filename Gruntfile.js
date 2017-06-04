@@ -45,12 +45,12 @@ module.exports = function(grunt) {
 			},
 			twig: {
 				files: [ 'source/twig/*.twig' ],
-				tasks: ['twigRender']
+				tasks: [ 'twigRender' ]
 			},
 		},
 		browserSync: {
 			bsFiles: {
-				src: ['build/css/*.css', 'build/*.html']
+				src: [ 'build/css/*.css', 'build/*.html']
 			},
 			options: {
 				watchTask: true,
