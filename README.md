@@ -1,8 +1,10 @@
-# Web site Repository
+# Website Repository
+
 ---
 ## Personal website [hornetti.github.io]
+---
 
-First project with package manager [npm] and task runner [grunt]
+First project with package manager [npm] and task runner [grunt] in Ideato
 
 #### Web tecnologies: 
 * npm
@@ -12,12 +14,12 @@ First project with package manager [npm] and task runner [grunt]
 * json
 
 * grunt-plugins
-	..* autoprefixer
-	..* browser-sync
-	..* watch
-	..* twig-render
-	..* sass
-	..* cssmin
-	..* uglify
+..* autoprefixer
+..* browser-sync
+..* watch
+..* twig-render
+..* sass
+..* cssmin
+..* uglify
 
 [hornetti.github.io]: https://hornetti.github.io/website/build/
