@@ -6,8 +6,8 @@
 }
 
 @mixin MarginButton {
-    margin-top: 4px;
-    margin-left: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 0px;
     margin-right: 0px;
 }
@@ -26,7 +26,7 @@
     padding-right: 0px;
 }
 
-$bg: #86C1D4;
+$bg: #1A1A1A;
 $bg_header: #F4F4F4;
 $bg_shell: #1A1A1A;
 $bg_green: #009E60;
@@ -47,21 +47,22 @@ $bg_red: #B3121D;
 
 body {
     background: $bg;
+    margin: 0;
 }
 
 .prompt {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .header {
     width: 100%;
-    height: 20px;
+    height: 35px;
     background: $bg_header;
-    border-radius: 5px 5px 0 0;
+    // border-radius: 5px 5px 0 0;
     .button {
-        width: 12px;
-        height: 12px;
+        width: 15px;
+        height: 15px;
         @include MarginButton;
         display: inline-block;
         border-radius: 50px;
@@ -81,8 +82,8 @@ body {
 }
 
 .shell {
-    width: 100%;
-    height: 100%;
+    // width: 100%;
+    // height: 100%;
     @include PaddingShell;
     background: $bg_shell;
     div {
@@ -111,6 +112,10 @@ span {
 
 a {
     text-decoration: none;
+    &:hover {
+        background: $bg_header;
+        color: $bg_shell;
+    }
     p {
         @include FontShell;
         margin: 0;
