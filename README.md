@@ -3,7 +3,7 @@
 First project with package manager [npm] and task runner [grunt] in Ideato.
 
 ---
-### Personal website [hornetti.github.io]
+### Personal website [hornetti.github.io/website]
 ---
 
 #### Web tecnologies: 
@@ -29,4 +29,4 @@ First project with package manager [npm] and task runner [grunt] in Ideato.
 	
 	* uglify
 
-[hornetti.github.io]: https://hornetti.github.io/website/build/
+[hornetti.github.io/website]: https://hornetti.github.io/website/build/
