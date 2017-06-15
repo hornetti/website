@@ -11,5 +11,13 @@
     "referenceCodepen" : "codepen",
     "linkCodepen" : "https://codepen.io/Hornetti", 
     "referenceCV" : "curriculum vitae",
-    "linkCV" : ""
+    "linkCV" : "",
+    "referenceScbs" : "small city, big stories",
+    "linkScbs" : "http://www.smallcitybigstories.com/", 
+    "referenceSales" : "salesiani20.it",
+    "linkSales" : "http://www.salesiani20.it/", 
+    "referenceSalesFae" : "salesianifaenza.it",
+    "linkSalesFae" : "http://www.salesianifaenza.it/", 
+    "referenceInchiostro" : "inchiostro",
+    "linkInchiostro" : "http://www.salesiani20.it/inchiostro", 
 }
