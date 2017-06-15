@@ -105,6 +105,7 @@
     h2,
     h3,
     h4,
+    p,
     span {
         margin: 0;
         padding: 0;
@@ -112,7 +113,11 @@
     }
 
     a {
-        text-decoration: none;
+        text-decoration: none;        
+        &:hover > p, &:focus > p {
+            background-color: #fff;
+            color: $bg;
+        }
         p {
             @include FontShell;
             margin: 0;
@@ -131,14 +136,14 @@
     }
 
     @mixin MarginButton {
-        margin-top: 10px;
+        margin-top: 11px;
         margin-left: 10px;
         margin-bottom: 0px;
         margin-right: 0px;
     }
 
     @mixin PaddingShell {
-        padding-top: 0px;
+        padding-top: 10px;
         padding-left: 10px;
         padding-bottom: 0px;
         padding-right: 0px;
@@ -229,6 +234,7 @@
     h2,
     h3,
     h4,
+    p,
     span {
         margin: 0;
         padding: 0;
@@ -237,6 +243,10 @@
 
     a {
         text-decoration: none;
+        &:hover > p, &:focus > p {
+            background-color: #fff;
+            color: $bg;
+        }
         p {
             @include FontShell;
             margin: 0;
