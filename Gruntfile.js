@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					cwd: 'source/sass/',
-					src: ['*.scss', '_*.scss'],
+					src: ['*.scss'],
 					dest: 'build/css/',
 					ext: '.css'
 				}]
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 				    data: "source/json/bio.json",
 				    expand: true,
 				    cwd: "source/twig/",
-				    src: ["*.twig", "_*.twig"],
+				    src: ["*.twig"],
 				    dest: "build/",
 				    ext: ".html"
 				}]
