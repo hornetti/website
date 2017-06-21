@@ -4,17 +4,17 @@ Error: Undefined mixin 'MarginButton'.
         from line 9 of source/sass/_header.scss
         from line 2 of source/sass/style.scss
 
-4: @mixin FontShell {
-5:     font-size: 15px;
-6:     font-family: 'Inconsolata', monospace;
-7:     font-weight: 400;
-8:     color: #FFF;
-9: }
-10: 
-11: @mixin MarginButton {
-12:     margin-top: 11px;
-13:     margin-left: 10px;
-14:     margin-bottom: 0px;
+4: 
+5: @mixin FontShell {
+6:     font-size: 15px;
+7:     font-family: 'Inconsolata', monospace;
+8:     font-weight: 400;
+9:     color: #FFF;
+10: }
+11: 
+12: @mixin MarginButton {
+13:     margin-top: 11px;
+14:     margin-left: 10px;
 
 Backtrace:
 source/sass/_header.scss:9:in `MarginButton'
@@ -92,4 +92,4 @@ C:/Ruby23-x64/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'MarginButton'.\A         on line 9 of source/sass/_header.scss, in `MarginButton'\A         from line 9 of source/sass/_header.scss\A         from line 2 of source/sass/style.scss\A \A 4: @mixin FontShell {\A 5:     font-size: 15px;\A 6:     font-family: 'Inconsolata', monospace;\A 7:     font-weight: 400;\A 8:     color: #FFF;\A 9: }\A 10: \A 11: @mixin MarginButton {\A 12:     margin-top: 11px;\A 13:     margin-left: 10px;\A 14:     margin-bottom: 0px;"; }
+  content: "Error: Undefined mixin 'MarginButton'.\A         on line 9 of source/sass/_header.scss, in `MarginButton'\A         from line 9 of source/sass/_header.scss\A         from line 2 of source/sass/style.scss\A \A 4: \A 5: @mixin FontShell {\A 6:     font-size: 15px;\A 7:     font-family: 'Inconsolata', monospace;\A 8:     font-weight: 400;\A 9:     color: #FFF;\A 10: }\A 11: \A 12: @mixin MarginButton {\A 13:     margin-top: 11px;\A 14:     margin-left: 10px;"; }
