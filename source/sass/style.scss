@@ -1,7 +1,3 @@
-@import "colors";
-@import "header";
-@import "cursor";
-
 @mixin FontShell {
     font-size: 15px;
     font-family: 'Inconsolata', monospace;
@@ -10,14 +6,14 @@
 }
 
 @mixin MarginButton {
-    margin-top: 11px;
+    margin-top: 5px;
     margin-left: 10px;
     margin-bottom: 0px;
     margin-right: 0px;
 }
 
 @mixin PaddingShell {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 10px;
     padding-bottom: 0px;
     padding-right: 0px;
@@ -29,6 +25,10 @@
     padding-bottom: 10px;
     padding-right: 0px;
 }
+
+@import "colors";
+@import "header";
+@import "cursor";
 
 @keyframes load {
     0% {
@@ -56,8 +56,8 @@ body {
     @include PaddingShell;
     background: $bg_shell;
     div {
-        padding-top: 5px;
-        padding-bottom: 10px;
+        //padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
 
