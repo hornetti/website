@@ -1,5 +1,6 @@
 @import "colors";
 @import "header";
+@import "cursor";
 
 @mixin FontShell {
     font-size: 15px;
@@ -60,9 +61,6 @@ body {
     }
 }
 
-.cursor {
-    animation: load 1s linear infinite;
-}
 
 div,
 h1,
