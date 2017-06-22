@@ -29,18 +29,7 @@
 @import "colors";
 @import "header";
 @import "cursor";
-
-@keyframes load {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+@import "links";
 
 body {
     background: $bg;
@@ -54,13 +43,12 @@ body {
 
 .shell {
     @include PaddingShell;
-    background: $bg_shell;
+    background: $bg;
     div {
         //padding-top: 5px;
         padding-bottom: 5px;
     }
 }
-
 
 div,
 h1,
@@ -72,17 +60,4 @@ span {
     margin: 0;
     padding: 0;
     @include FontShell;
-}
-
-a {
-    text-decoration: none;
-    &:hover > p, &:focus > p {
-        background-color: #fff;
-        color: $bg;
-    }
-    p {
-        @include FontShell;
-        margin: 0;
-        padding: 0;
-    }
 }
