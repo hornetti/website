@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    &:hover > p, &:focus > p {
+        background-color: #fff;
+        color: $bg;
+    }
+    p {
+        @include FontShell;
+        margin: 0;
+        padding: 0;
+    }
+}
