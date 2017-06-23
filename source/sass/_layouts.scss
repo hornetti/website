@@ -1,0 +1,13 @@
+.prompt {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.shell {
+    @include PaddingShell;
+    background: $bg;
+    div {
+        //padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
