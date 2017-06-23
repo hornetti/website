@@ -1,62 +1,16 @@
-@mixin FontShell {
-    font-size: 15px;
-    font-family: 'Inconsolata', monospace;
-    font-weight: 400;
-    color: #FFF;
-}
-
-@mixin MarginButton {
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-}
-
-@mixin PaddingShell {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-}
-
-@mixin PaddingCommand {
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    padding-right: 0px;
-}
-
+@import "mixins";
 @import "colors";
 @import "header";
 @import "cursor";
 @import "links";
+@import "layouts";
 
 body {
     background: $bg;
     margin: 0;
 }
 
-.prompt {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.shell {
-    @include PaddingShell;
-    background: $bg;
-    div {
-        //padding-top: 5px;
-        padding-bottom: 5px;
-    }
-}
-
-div,
-h1,
-h2,
-h3,
-h4,
-p,
-span {
+div, h1, h2, h3, h4, p, span {
     margin: 0;
     padding: 0;
     @include FontShell;
