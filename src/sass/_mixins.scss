@@ -20,8 +20,9 @@
 }
 
 @mixin PaddingCommand {
-    padding-top: 10px;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    padding-right: 0px;
+    padding: 10px 0px;
+}
+
+@mixin PaddingResponse {
+    padding: 10px 0px;
 }
