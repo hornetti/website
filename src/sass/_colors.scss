@@ -3,3 +3,11 @@ $bg_header: #F4F4F4;
 $bg_green: #009E60;
 $bg_yellow: #FDB927;
 $bg_red: #B3121D;
+$bg_bluedark: #001f54;
+$bg_bluesoft: #034078;
+
+@mixin linear-gradient($direction, $color-stops...) {
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
