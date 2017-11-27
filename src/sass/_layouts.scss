@@ -1,5 +1,9 @@
+body {
+	@include linear-gradient($bg_bluedark, $bg_bluesoft);
+}
+
 .prompt {
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
 }
 
