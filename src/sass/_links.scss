@@ -1,7 +1,7 @@
 a {
     text-decoration: none;
     &:hover > p, &:focus > p {
-        background-color: #fff;
+        background-color: $header;
         color: $bg;
     }
     p {
