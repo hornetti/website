@@ -6,27 +6,28 @@ First project with package manager [npm] and task runner [grunt] in Ideato.
 ### Personal website [hornetti.github.io/website]
 ---
 
-#### Web tecnologies: 
+## Web tecnologies: 
 * npm
 * grunt
 * twig
 * sass
 * json
+* javascript
 
 * grunt-plugins
 	
-	* autoprefixer
-	
-	* browser-sync
-	
-	* watch
-	
 	* twig-render
 	
-	* sass
+	* node-sass
 	
 	* cssmin
+
+	* autoprefixer
 	
-	* uglify
+	* uglifyjs
+
+	* browser-sync
+	
+	* watch	
 
 [hornetti.github.io/website]: https://hornetti.github.io/website/build/
